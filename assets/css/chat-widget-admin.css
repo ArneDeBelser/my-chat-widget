@@ -1,0 +1,105 @@
+.wrap {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+.no-messages {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.no-messages i {
+    font-size: 50px;
+    margin-right: 10px;
+}
+
+.no-messages p {
+    font-size: 18px;
+}
+
+.message {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.message p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.message-meta {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #999;
+}
+
+.message-meta .sender {
+    margin-right: 10px;
+}
+
+.response {
+    margin-top: 10px;
+}
+
+.response h3 {
+    margin-top: 0;
+}
+
+.response p {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.response-form {
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.response-form label {
+    flex-basis: 100%;
+    font-size: 16px;
+}
+
+.response-form textarea {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+}
+
+.response-form button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
+
+.response-form button:hover {
+    background-color: #3e8e41;
+}
+
+.user-messages {
+    margin-bottom: 60px;
+    border: 2px solid green;
+    padding: 10px;
+}
